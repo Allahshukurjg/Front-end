@@ -8,7 +8,7 @@ function Footer() {
         <div className='footer'>
             <div className="container">
                 <div className="top">
-                    <h3>BEACHES.</h3>
+                    <h3>AZERBAYCAN.</h3>
                     <div className="social">
                         <FaFacebook className='icon' />
                         <FaInstagram className='icon' />
@@ -20,21 +20,21 @@ function Footer() {
                 <div className="bottom">
                     <div className="left">
                         <ul>
-                            <li>About</li>
-                            <li>Partnerships</li>
-                            <li>Careers</li>
-                            <li>Newsroom</li>
-                            <li>Advertising</li>
+                            <li>Haqqında</li>
+                            <li>Tərəfdaşlıq </li>
+                            <li>Kariyera</li>
+                            <li>Xəbərlər </li>
+                            <li>Reklam</li>
                         </ul>
                     </div>
                     <div className="right">
                         <ul>
-                            <li>Contact</li>
-                            <li>Terms</li>
-                            <li>Policy</li>
-                            <li>Privacy</li>
-                            <li>Pricing</li>
-                            <li>Contact</li>
+                            <li>Əlaqə</li>
+                            <li>Şərtlər</li>
+                            <li>Siyasət</li>
+                            <li>Gizlilik</li>
+                            <li>Qiymətləndirmə</li>
+                            <li>Meil</li>
                         </ul>
                     </div>
                 </div>

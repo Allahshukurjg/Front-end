@@ -11,8 +11,8 @@ function Destinations() {
     return (
         <div name='destinations' className='destinations'>
             <div className="container">
-                <h1>All-Inclusive Resorts</h1>
-                <p>On the Caribbean's Best Beaches</p>
+                <h1>"Hər şey daxil"sistemi üzrə kurortlar</h1>
+                <p>Xəzər dənizinin sahillərinin ən yaxşı çimərliklərində</p>
                 <div className="img-container">
                     <img className='span-3 image-grid-row-2' src={BoraBora} alt="/"/>
                     <img src={BoraBora2} alt="/"/>

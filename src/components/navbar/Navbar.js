@@ -16,14 +16,14 @@ function Navbar() {
     return (
         <div name='home' className={nav ? 'navbar navbar-bg' : 'navbar'}>
             <div className={nav ? 'logo dark' : 'logo'}>
-                <h2>BEACHES.</h2>
+                <h2>AZERBAYCAN.</h2>
             </div>
             <ul className="nav-menu">
-                <Link to='home' smooth={true} duration={500} ><li>Home</li></Link>
-                <Link to='destinations' smooth={true} duration={500} ><li>Destinations</li></Link>
-                <Link to='carousel' smooth={true} duration={500} ><li>Travel</li></Link>
-                <Link to='search' smooth={true} duration={500} ><li>Book</li></Link>
-                <Link to='views' smooth={true} duration={500} ><li>Views</li></Link>
+                <Link to='home' smooth={true} duration={500} ><li>Giriş</li></Link>
+                <Link to='destinations' smooth={true} duration={500} ><li>Təyinat</li></Link>
+                <Link to='carousel' smooth={true} duration={500} ><li>Səyahet</li></Link>
+                <Link to='search' smooth={true} duration={500} ><li>Kitab</li></Link>
+                <Link to='views' smooth={true} duration={500} ><li>Baxışlar</li></Link>
             </ul>
             <div className="nav-icons">
                 <BiSearch className='icon' style={{ marginRight: '1rem' }} />
@@ -36,16 +36,16 @@ function Navbar() {
 
             <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
                 <ul className="mobile-nav">
-                <Link to='home' smooth={true} duration={500} ><li>Home</li></Link>
-                <Link to='destinations' smooth={true} duration={500} ><li>Destinations</li></Link>
-                <Link to='carousel' smooth={true} duration={500} ><li>Travel</li></Link>
-                <Link to='search' smooth={true} duration={500} ><li>Book</li></Link>
-                <Link to='views' smooth={true} duration={500} ><li>Views</li></Link>
+                <Link to='home' smooth={true} duration={500} ><li>Giriş</li></Link>
+                <Link to='destinations' smooth={true} duration={500} ><li>Təyinat</li></Link>
+                <Link to='carousel' smooth={true} duration={500} ><li>Səyahet</li></Link>
+                <Link to='search' smooth={true} duration={500} ><li>Kitab</li></Link>
+                <Link to='views' smooth={true} duration={500} ><li>Baxışlar</li></Link>
                 </ul>
                 <div className="mobile-menu-bottom">
                     <div className="menu-icons">
-                        <button>Search</button>
-                        <button>Account</button>
+                        <button>Axtariş</button>
+                        <button>Hesab</button>
                     </div>
                     <div className="social-icons">
                         <FaFacebook className='icon' />

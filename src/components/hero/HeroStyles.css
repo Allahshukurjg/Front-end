@@ -3,7 +3,7 @@
     height: 100vh;
     color: #fff;
     position: relative;
-}
+    }
 
 .overlay {
     background-color: rgba(0, 0, 0, 0.1);

@@ -12,11 +12,11 @@ function Hero() {
             </video>
             <div className="overlay"></div>
             <div className="content">
-                <h1>First Class Travel</h1>
-                <h2>Top 1% Locations Worldwide</h2>
+                <h1>Birinci sinif səyahət</h1>
+                <h2>1% Dünyanın ən yaxşı yerləri</h2>
                 <form className="form">
                     <div>
-                        <input type="text" placeholder='Search Destinations' />
+                        <input type="text" placeholder='Hedef axtarış' />
                     </div>
                     <div>
                         <button><AiOutlineSearch className='icon'/></button>

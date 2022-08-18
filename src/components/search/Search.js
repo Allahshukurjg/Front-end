@@ -8,16 +8,16 @@ function Search() {
         <div name='book' className='search'>
             <div className="container">
                 <div className="left">
-                    <h2>LUXURY INCLUDED VACATIONS FOR TWO PEOPLE</h2>
-                    <p>Come experience the very pinnacle of luxury Caribbean all-inclusive vacations for couples at Sandals Resorts. Our luxury beach resorts, set along the most gorgeous tropical settings and exquisite beaches in Saint Lucia, Jamaica, Antigua, The Bahamas, Grenada, Barbados and Curaçao, feature unlimited gourmet dining, unique bars serving premium liquors and wines, and every land and water sport, including complimentary green fees at our golf resorts and PADI® certified scuba diving at most resorts. If you are planning a wedding, Sandals is the leader in Caribbean destination weddings and honeymoon packages.</p>
+                    <h2>YAŞAYIŞ QİYMƏTİNƏ DAXİL OLAN İKİ NƏFƏR ÜÇÜN LÜKS İSTİRAHƏT</h2>
+                    <p>Azerbaycan Hotellerin-de cütlər üçün "hər şey daxil" sistemində lüks Karib bayramının ən yüksək zirvəsini yaşamağa gəlin. Qebele, Nabran, Şeki, Quba, Masalli, Yardimli və Lenkeran ən möhtəşəm tropik mənzərələr və incə çimərliklər boyunca yerləşən lüks çimərlik kurortlarımız qeyri-adi sayda nəfis yeməklər, ilk sinif likörləri və şərabları təqdim edən unikal barlar, eləcə də golf kurortlarımızda pulsuz yaşıl yığımlar daxil olmaqla, bütün növ yerüstü və su idmanı təklif edir. və əksər kurortlarda akvalanqla sertifikatlaşdırılmış PADI snorkelling. Bir toy planlıyorsanız, Lahic. bal ayı üçün toy turlar və turlar arasında liderdir.</p>
                     <div className="search-col-2">
                         <div className="box">
                             <div>
                                 <img src={Gold} alt="/" style={{ marginRight: '1rem' }} />
                             </div>
                             <div>
-                                <h3>WORLD'S LEADING</h3>
-                                <p>ALL-INCLUSIVE COMPANY FOR 20 YEARS IN-A-ROW</p>
+                                <h3>DÜNYANIN APARICI</h3>
+                                <p>"HƏR ŞEY DAXİL" ŞİRKƏTİ ARTIQ 20 İLDİR Kİ, DALBADAL</p>
                             </div>
                         </div>
                         <div className="box">
@@ -31,21 +31,21 @@ function Search() {
                 </div>
                 <div className="right">
                     <div className="promo">
-                        <h4 className="save">GET AN ADDITIONAL 7% OFF</h4>
-                        <p className="timer">12 HOURS LEFT!</p>
-                        <p className="offers">VIEW ALL CURRENT OFFERS</p>
+                        <h4 className="save">7%-dək əlavə endirim əldə edin</h4>
+                        <p className="timer">12 SAAT QALDI!</p>
+                        <p className="offers">BÜTÜN CARİ TƏKLİFLƏR BAX</p>
                     </div>
                     <form>
                         <div className="input-wrap">
-                            <label>Destination</label>
+                            <label>Təyinat yeri</label>
                             <select>
-                                <option value="1">Grande Antigua</option>
-                                <option value="1">Grenda</option>
-                                <option value="1">Emerald Bay</option>
-                                <option value="1">Bora Bora</option>
-                                <option value="1">Key West</option>
-                                <option value="1">Maldives</option>
-                                <option value="1">Barbados</option>
+                                <option value="1">Nabran</option>
+                                <option value="1">Qəbələ</option>
+                                <option value="1">Şəki</option>
+                                <option value="1">Lənkəran</option>
+                                <option value="1">Masalli</option>
+                                <option value="1">Kəlbəcər</option>
+                                <option value="1">Şuşa</option>
                             </select>
                         </div>
                         <div className="date">
@@ -58,7 +58,7 @@ function Search() {
                                 <input type="date" />
                             </div>
                         </div>
-                        <button>Rates & Availabilities </button>
+                        <button>İndi sifariş et </button>
                     </form>
                 </div>
             </div>
